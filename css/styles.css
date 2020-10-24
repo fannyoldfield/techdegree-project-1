@@ -55,27 +55,37 @@ a:hover {
 	color: white;
 }
 
-header {
-	text-align: center;
+.background {
 	background: url('../images/Code_Background.jpg') no-repeat top center;
 	background-size: cover;
 	overflow: hidden;
-	padding-top: 60px;
+	padding-top: 80px;
 }
-header {
-	line-height: 1.5;
+
+.header_resumepage {
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	padding-top: 100px;
 }
-header .profile-image {
+
+.profile-image {
 	margin-top: 50px;
 	width: 150px;
 	height: 150px;
-	border-radius: 50%;
-	border: 3px solid white;
-	transition: all .5s;
+	border-radius: 30%;
+	border: 4px solid white;
+	transition: all .50s;
 }
-header .profile-image:hover {
-	transform: scale(1.2) rotate(5deg);
+.profile-image:hover {
+	transform: scale(1.5) rotate(0deg);
 }
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
 .tag {
 	color: black;
 	padding: 50px;
@@ -90,7 +100,7 @@ header .profile-image:hover {
 	color: yellow;
 }
 .card {
-	margin: 30px;
+	margin: 20px;
 	padding: 20px 40px 40px;
 	max-width: 500px;
 	text-align: left;
@@ -101,6 +111,14 @@ header .profile-image:hover {
 }
 .card:hover {
 	border-color: #ff99ff;
+}
+
+.details {
+	color: black;
+	font-size: 14px;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px auto;
 }
 
 ul.skills {
@@ -181,6 +199,10 @@ a.social:hover {
 
 	header {
 		min-height: 470px;
+	}
+
+	.header_resumepage {
+		min-height: 200px;
 	}
 
 	.nav {
